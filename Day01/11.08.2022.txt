@@ -1,0 +1,25 @@
+Github User Interface and Account Creation.
+Git Installation.
+
+Basic Commands:
+
+1. ls - list the files in the current directory.
+2. mkdir - make / create a new directory.
+3. rmdir - Remove a folder.
+4. rm - Remove a file.
+5. cd <directory-name> - Switch to next directory from the current directory.
+6. cd .. - switch back to the previous directory from the current directory.
+
+Hands-on training in Git and Github.
+Git Commands:
+
+1. echo "<Message>" >> <filename> - Create a file and save the text in that.
+2. git init - Initialization of git.
+3. git add <filename> - Staging a particular file.
+4. git add . - Staging all the files in a working directory.
+5. git commit -m "<Message>" - Save the file.
+6. git remote add origin <url-of-github> - Create a connection between Local and Remote Repository.
+7. git branch -M main - Create or change the branch of the file.
+8. git push -u origin main - Push the file from Local to Remote Repository.
+9. git log - To view the commit id and commit name.
+10. git checkout <commit-id> - Switch between commits.
