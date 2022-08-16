@@ -1,0 +1,29 @@
+Topics covered today:
+
+OOPS Concept:
+1. Class.
+2. Object.
+3. Methods.
+4. Encapsulation.
+5. Abstraction.
+6. Inheritance.
+7. Polymorphism.
+8. Try, Catch and Finally.
+9. Interface.
+10. Method Overloading.
+11. Method Overriding.
+
+Programs given as task:
+1. Employee Details using Encapsulation (Getter and Setter).
+2. Calculator App using Encapsulation (Getter and Setter).
+3. Project (APP Store).
+
+Task given as HOMEWORK:
+1. Difference between Protected and Default.
+2. About Super Keyword.
+3. About Final Keyword in Method and Class.
+4. Print HELLO WORLD using Interface.
+5. Print HELLO WORLD using Method Overriding.
+6. Print HELLO WORLD using Method Overloading.
+7. Print HELLO WORLD using Array.
+8. Create Array that should support 4 numbers and print the sum of those numbers.
