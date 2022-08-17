@@ -1,0 +1,13 @@
+Topics covered today:
+1. Aggregation.
+2. Wrapper.
+3. Clone.
+4. JavaDoc.
+5. Continuous Statement.
+6. Difference between JVM, JRE and JDK.
+7. Math Function.
+8. Path Setting.
+
+Projects done:
+1. ATM.
+2. Exam Platform.
