@@ -1,0 +1,13 @@
+Topics covered:
+1. String Method.
+2. Thread.
+3. Synchronization.
+4. ForEach.
+5. Collections.
+6. File Handling.
+7. Serialization.
+8. HashMap.
+9. ArrayList.
+
+Projects done:
+1. Exam Platform using Interface, Inheritance, Regular Expression, Date, Lambda.
