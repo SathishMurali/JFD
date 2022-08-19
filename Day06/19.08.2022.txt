@@ -1,0 +1,20 @@
+Topics Covered:
+1. Maven lombok.
+2. Database:
+	i. DDL Commands:
+		1. CREATE DATABASE <tablename>.
+		2. CREATE TABLE <tablename> (variable name: datatype).
+		3. ALTER TABLE <tablename>.
+		4. DROP TABLE <tablename>.
+		5. TRUCATE TABLE <tablename>.
+	ii. DML Commands:
+		1. INSERT INTO <tablename> VALUES().
+		2. UPDATE <tablename>.
+		3. DELETE FROM <tablename>.
+
+Projects covered:
+1. Shopping App using Maven Lombok.
+
+
+Projects done:
+1. Examination Platform using Lambda.
