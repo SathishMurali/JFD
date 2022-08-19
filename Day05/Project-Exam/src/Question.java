@@ -32,12 +32,9 @@ class Question extends QueAns {
         q.an.write("\nYour Answers:\t\tCorrect Answers:\n");
 
         ArrayList<QuestionPojo> questionPojos = new ArrayList<>();
-        QuestionPojo questionPojo = new QuestionPojo();
-        questionPojo.setId()
-
 
         for (int n = 0, y = 0; n <= q.ques && y <= q.cout - 1; n += 2, y++) {
-            q.arr.add(Files.readAllLines(Paths.get("D:\\JAVA FSD\\Project-Exam\\src\\qa\\answers.txt")).get(y));
+            System.out.println(Files.readAllLines(Paths.get("D:\\JAVA FSD\\Project-Exam\\src\\qa\\answers.txt")).get(y));
             System.out.println(Files.readAllLines(Paths.get("D:\\JAVA FSD\\Project-Exam\\src\\qa\\questions.txt")).get(n));
             n = n + 1;
             System.out.println(Files.readAllLines(Paths.get("D:\\JAVA FSD\\Project-Exam\\src\\qa\\questions.txt")).get(n));
