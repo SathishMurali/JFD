@@ -1,0 +1,15 @@
+Topics Covered:
+1. Git
+	i. Initialization.
+	ii. Staging.
+	iii. Remote Connection.
+	iv. Commit
+	v. Branching.
+	vi Push
+	* Merging Conflict
+2. Maven
+	i. Maven Importing.
+	ii. Usage
+
+Projects given:
+1. Google Pay App.
