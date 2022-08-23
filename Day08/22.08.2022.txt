@@ -1,0 +1,16 @@
+Topics Covered:
+1. Spring Boot
+	i. Tightly Coupled.
+	ii. Loosely Coupled.
+	iii. Cimponent and Autowired.
+	iv. Constructor and Setter Injection.
+	v. Autowired by Name
+	vi. Primary and Qualifier.
+	vii. Qualifier by Name
+	viii. Bean Scope.
+	ix. Sample Scope.
+	x. Component Scan.
+2. Git Branching.
+
+Projects covered:
+1. ToDo List.

@@ -1,0 +1,25 @@
+Scope:
+1. Singleton - Post Construct and Pre Destroy.
+2. Prototype.
+
+Component
+Autowired
+Primary
+Qualifier
+
+Pom.ml is a dependency file.
+
+Spring Dependencies - Context and Core.
+
+Dependency Management:
+1. Maven.
+2. Gradle.
+3. NPM.
+
+Convert Spring Boot to Spring:
+1. Remove SpringBootApplication.
+2. Add Configuration and ComponentScan.
+
+CDI
+Constrctor and Setter Injection
+ProxyMode.
