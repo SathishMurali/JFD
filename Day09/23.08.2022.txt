@@ -1,0 +1,14 @@
+Topics Covered:
+1. Spring - Revision.
+2. Spring Boot - Revision.
+3. Spring Boot:
+	i. Auto Configuration.
+	ii. Web Services.
+	iii. AutoController.
+4. Basics of Internet.
+5. Overview of Application Creation.
+
+Projects Covered:
+1. Binary Search using Java.
+2. Binary Search using Spring.
+3. ToDo List Application using Spring Boot.
