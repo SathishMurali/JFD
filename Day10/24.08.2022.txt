@@ -1,0 +1,20 @@
+Topics Covered:
+1. JAP and REST API.
+2. Repository Annotation.
+3. Authentication and Authorization.
+4. Basic testing with postan.
+5. Rest Controller
+	i. Stereotype.
+	ii. Annotation.
+6. Actuators.
+7. CRUD application and execution.
+8. Memory Authentication.
+9. Conditional and Autoconfiguration.
+
+Projects covered:
+1. ToDo using Java.
+2. ToDo using Spring Boot.
+3. ToDo with JPA and Rest Controller.
+
+
+# Project Case Study.
