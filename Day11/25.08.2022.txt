@@ -1,0 +1,11 @@
+Topics covered:
+1. Webflux.
+2. Reactive Mongo.
+3. Rective Types
+	i. Flux
+	ii. Mono
+4. JPA Entity Relationships.
+
+
+Tasks covered:
+1. Program using JPA Entity Relationships.
