@@ -6,29 +6,29 @@ import com.nseit.SpringBootRelations.services.VehicleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@RequestMapping(value = "/vehicle", method = RequestMethod.GET)
 @RestController
+@RequestMapping("/vehicle")
 public class VehicleController {
     @Autowired
     private VehicleService vehicleService;
 
     @PostMapping
-    public void addVehicle(Vehicle vehicle) {
+    public void add(@RequestBody Vehicle vehicle) {
         vehicleService.addVehicle(vehicle);
     }
 
     @GetMapping("/all")
-    public void viewVehicle() {
+    public void view() {
         vehicleService.viewVehicle();
     }
 
     @PutMapping
-    public void updateVehicle(Vehicle vehicle) {
+    public void update(@RequestBody Vehicle vehicle) {
         vehicleService.updateVehicle(vehicle);
     }
 
     @DeleteMapping("/{id}")
-    public void deleteVehicle(@PathVariable int id) {
+    public void delete(@PathVariable int id) {
         vehicleService.deleteVehicle(id);
     }
 

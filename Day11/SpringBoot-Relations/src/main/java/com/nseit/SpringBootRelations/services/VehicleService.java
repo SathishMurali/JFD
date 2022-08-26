@@ -26,7 +26,7 @@ public class VehicleService {
 
     public void deleteVehicle(int id){
         for (Vehicle vehicle: vehicleRepository.findAll()){
-            if (id == vehicle.getId()){
+            if (id == vehicle.getVehicleId()){
                 vehicleRepository.delete(vehicle);
             }
         }
