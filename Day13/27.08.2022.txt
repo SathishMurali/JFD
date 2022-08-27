@@ -1,0 +1,15 @@
+Topics covered:
+1. Microservices
+	i. Edureka Server.
+	ii. API Gateway.
+	iii. Circuit Breaker.
+	iv. Feign.
+	v. Load Balancing.
+	vi. Resilience For J.
+
+2. MySQL.
+	i. Installation.
+	ii. Usage.
+
+Tasks covered:
+1. Project using MySQL and Mapping.
