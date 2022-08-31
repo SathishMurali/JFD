@@ -1,0 +1,20 @@
+Topics Covered:
+
+1. HTML
+	Basics
+	Lists
+	Images
+	Links
+	Tables
+	Forms
+2. CSS
+	Selector
+	Box Model
+	Dimension
+	Positions
+	Font
+	Text Color
+
+Tasks given:
+1. Webpage creation using HTML and CSS.
+2. Add Role base Authentication in Main Project.

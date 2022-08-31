@@ -1,0 +1,30 @@
+Topics Covered:
+1. JavaScript
+	Variables
+	Constant
+	Primitive Types
+	Dynamic Languages
+	Nested Object
+	Arrays
+	Function
+	Types of Function
+	Conditional
+	Loops
+	Hoisting
+	Literals
+	Destructor
+	Spread
+	Rest
+	Closure
+	Default Parameters
+	Async
+	Map
+	Filter
+	Reduce
+	Ecma Script
+
+Tasks Completed:
+--> University Website using HTML and CSS.
+
+Tasks given:
+--> Portfolio website.
