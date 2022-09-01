@@ -1,0 +1,27 @@
+Topics Covered:
+1. Flex
+	Justify Content
+	Align item
+	Align self
+	Flex direction and column
+	Centering element
+	Flex wrap
+	Ordering
+	Flex grow, shrink basics
+2. Bootstrap 5
+	Spacing
+	Sizing
+	Text Position
+	Accordian
+	Alert
+	Badges
+	Breadcrumb
+	Button
+	Card
+	Carousel
+	Modal
+	Navbar
+	Pagination
+
+Tasks given:
+	FLipkart Menubar using HTMl and CSS, using Flex, using Bootstrap 5

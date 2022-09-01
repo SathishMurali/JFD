@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+nav{
+    position: sticky;
+    float: left;
+    width: 100%;
+}
+
+.navbar{
+    background-color:#0066ff;
+    height: 55px;
+}
+
+#explore{
+    font-size: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    left: -75px;
+}
+
+.navbar-brand{
+    float: left;
+    position: relative;
+    left: 185px;
+    top: -10px;
+}
+
+.input-group{
+    float: left;
+    position: relative;
+    top: 12px;
+    left: 60px;
+}
+
+.input-group input{
+    width: 370px;
+}
+
+#search-button{
+    position: relative;
+    top: -33px;
+    left: 325px;
+    border: 0px;
+    color: #0066ff;
+    background-color: transparent;
+    width: 40px;
+}
+
+#login-button{
+    width: 200px;
+    height: 30px;
+    border: 0px;
+    color: #0066ff;
+    font-weight: 600;
+    position: relative;
+    left: -290px;
+}
+#seller{
+    float: left;
+    width: 200px;
+    position: relative;
+    left: -240px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.dropbtn a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.dropdown button{
+    background-color: #0066ff;
+}
+.dropdown {
+    position: relative;
+    right: 200px;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 210px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content i{
+    color: #0066ff;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+
+#cart{
+    position: relative;
+    right: 140px;
+    color: #ffffff;
+}
+
+#cart a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    float: left;
+}
+
+.flex-container a{
+    text-decoration: none;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.flex-container a figure{
+    width: 60%;
+}
+
+.flex-container a figure img {
+    width: 90%;
+}
+
+figcaption{
+    font-size: 13px;
+    color: #000000;
+    font-weight: 600;
+    text-align: center;
+}
+
+figcaption:hover{
+    color: #0066ff;
+}
+
+@media only screen and (max-width: 700px){
+    .navbar{
+        width: 850px;
+    }
+}
