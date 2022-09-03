@@ -1,0 +1,10 @@
+Tasks done:
+1. Web Development using Bootstrap
+	--> Instagram, Flipkart
+	--> Facebook, Myntra
+2. Role based access for Main Project.
+3. Revision on Entity Relationship.
+4. In Bootstrap
+	--> Flex Model
+	--> Buttons
+	--> Cards
