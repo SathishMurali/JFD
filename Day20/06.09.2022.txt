@@ -1,0 +1,12 @@
+Topics covered:
+1. Javascript
+	--> let and const
+	--> function
+	* Simple Tasks
+2. React
+	--> props
+	--> Components
+	--> state
+
+Projects covered:
+--> Created Sign up and Login UI using HTML and Botstrap
