@@ -1,0 +1,6 @@
+Project Status:
+	--> UI - 40%
+	--> Backend - 20%
+
+Demo Project (Contact Application):
+	--> Project using React.
