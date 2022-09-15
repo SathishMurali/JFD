@@ -1,9 +1,30 @@
-import React from 'react'
-import NavBar from '../components/NavBar'
+import React, { useState } from 'react'
+import NavBar from '../components/common/NavBar'
 import { Card, Container } from 'react-bootstrap'
-import HistoryTable from '../components/HistoryTable'
+import UserHistoryWrapper from '../components/wrapper/UserHistoryWrapper'
+import { useEffect } from 'react'
+import examApi from '../api/exam'
 
 const UserHistory = () => {
+  const [histories, setHistories] = useState([])
+  useEffect(() => {
+    examApi
+      .get(`/history/all`)
+      .then((res) => {
+        if (res.data.data) {
+          setHistories(res.data.data);
+          console.log(res.data.data);
+        } else if (res.data.data) {
+          console.log(res.data.error.messsage);
+        } else {
+          console.log("Something went wrong");
+        }
+      })
+      .catch((error) => {
+        console.log(`Error -> ${error}`);
+      });
+  }, []);
+
   return (
     <>
       <NavBar />
@@ -18,12 +39,15 @@ const UserHistory = () => {
               <tr>
                 <th>S.No</th>
                 <th>Subject</th>
-                <th>score</th>
+                <th>Score</th>
                 <th>Date & Time</th>
               </tr>
             </thead>
-            <HistoryTable sno='1' subject="Java" score='10' dateTime="10/09/2022" />
-            <HistoryTable sno='2' subject="Python" score='6' dateTime="10/09/2022" />
+            {histories.map((history, index) => {
+              return (<UserHistoryWrapper sno={index + 1} subject={history.subjectName} score={history.score} dateTime={history.examDateTime} />
+              )
+            })}
+            {/* <UserHistoryWrapper sno='2' subject="Python" score='6' dateTime="10/09/2022" /> */}
           </table>
         </div>
       </Card>

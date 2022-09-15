@@ -10,7 +10,7 @@ import { UserContext } from '../context/UserContext';
 
 import { faAt } from '@fortawesome/free-solid-svg-icons';
 import { faKey } from '@fortawesome/free-solid-svg-icons'
-import Credentials from '../components/Credentials';
+import CredentialsWrapper from './wrapper/CredentialsWrapper';
 
 const LoginComponent = () => {
     const navigate = useNavigate();
@@ -52,7 +52,7 @@ const LoginComponent = () => {
                     <Form className='w-75'>
                         <div><h2 className='mb-3 fw-bold'>Sign in</h2></div>
                         <Form.Group controlId='formBasicEmail'>
-                            <Credentials
+                            <CredentialsWrapper
                                 classnameProperties0='m-3'
                                 classnameProperties1='bg-transparent border-top-0 border-end-0 border-start-0 border-dark'
                                 classnameProperties2='shadow-none border-top-0 border-end-0 border-start-0 border-dark'
@@ -66,7 +66,7 @@ const LoginComponent = () => {
                             />
                         </Form.Group>
                         <Form.Group controlId='formBasicPassword'>
-                            <Credentials
+                            <CredentialsWrapper
                                 classnameProperties0='m-3'
                                 classnameProperties1='bg-transparent border-top-0 border-end-0 border-start-0 border-dark'
                                 classnameProperties2='shadow-none border-top-0 border-end-0 border-start-0 border-dark'

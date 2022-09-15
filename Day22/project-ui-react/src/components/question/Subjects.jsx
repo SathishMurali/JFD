@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
 import { Button } from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
-import examApi from '../api/exam';
+import examApi from '../../api/exam';
 
 const Subjects = () => {
 
     const [questions, setQuestions] = useState({
         subjectId: "",
         question: "",
-        questionChoice: "",
         correctAnswer: "",
+        choiceList: "",
     })
 
     const [show, setShow] = useState(false);
@@ -24,8 +24,8 @@ const Subjects = () => {
             .post(`/question/add`, {
                 subjectId: questions.subjectId,
                 question: questions.question,
-                questionChoice: questions.questionChoice,
                 correctAnswer: questions.correctAnswer,
+                choiceList: questions.choiceList,
             })
             .then((res) => {
                 if (res.data.data) {
@@ -54,8 +54,8 @@ const Subjects = () => {
                     <h6>Subject ID</h6>
                     <input
                         type="text"
-                        placeholder="Add Subject"
-                        value={questions.subjectId}
+                        placeholder="Subject ID"
+                        value={questions.subjectName}
                         onChange={(event) => {
                             setQuestions({ ...questions, subjectId: event.target.value })
                         }}>
@@ -75,33 +75,33 @@ const Subjects = () => {
                         <input
                             type="text"
                             placeholder='Option 1'
-                            value={questions.questionChoice}
+                            value={questions.choiceList}
                             onChange={(event) => {
-                                setQuestions({ ...questions, questionChoice: event.target.value })
+                                setQuestions({ ...questions, choiceList: event.target.value })
                             }}
                         />
                         <input
                             type="text"
                             placeholder='Option 2'
-                            value={questions.questionChoice}
+                            value={questions.choiceList}
                             onChange={(event) => {
-                                setQuestions({ ...questions, questionChoice: event.target.value })
+                                setQuestions({ ...questions, choiceList: event.target.value })
                             }}
                         />
                         <input
                             type="text"
                             placeholder='Option 3'
-                            value={questions.questionChoice}
+                            value={questions.choiceList}
                             onChange={(event) => {
-                                setQuestions({ ...questions, questionChoice: event.target.value })
+                                setQuestions({ ...questions, choiceList: event.target.value })
                             }}
                         />
                         <input
                             type="text"
                             placeholder='Option 4'
-                            value={questions.questionChoice}
+                            value={questions.choiceList}
                             onChange={(event) => {
-                                setQuestions({ ...questions, questionChoice: event.target.value })
+                                setQuestions({ ...questions, choiceList: event.target.value })
                             }}
                         />
                     </div>

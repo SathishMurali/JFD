@@ -22,8 +22,8 @@ function App() {
 
       <Route element={<ProtectedRoutes auth={loggedInUser.isLoggedIn} />}>
         <Route path="/" element={<HomePage />} />
-        <Route path="/questions" element={<QuestionPage />} />
-        <Route path="/score" element={<ScorePage />} />
+        <Route path="/questions/:id" element={<QuestionPage />} />
+        <Route path="/score/:score" element={<ScorePage />} />
         <Route path="/history" element={<UserHistory />} />
       </Route>
     </Routes>

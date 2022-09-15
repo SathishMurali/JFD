@@ -1,6 +1,9 @@
 import React from 'react'
 
-const HistoryTable = ({sno, subject, score, dateTime}) => {
+const UserHistoryWrapper = ({ sno, subject, score, dateTime }) => {
+    console.log(sno);
+    console.log(subject);
+    console.log(dateTime);
     return (
         <tbody>
             <tr>
@@ -13,4 +16,4 @@ const HistoryTable = ({sno, subject, score, dateTime}) => {
     )
 }
 
-export default HistoryTable
+export default UserHistoryWrapper
